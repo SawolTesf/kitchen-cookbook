@@ -1,4 +1,5 @@
-# Odin Recipes
+# kitchen-cookbook
+
 
 This project is a basic recipe website built using HTML. It is part of a learning exercise to practice HTML skills and will be styled with CSS in the future.
 
