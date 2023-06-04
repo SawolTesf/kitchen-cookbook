@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="/styles.css"> 
+  <link rel="stylesheet" href="styles.css"> 
   <meta charset="UTF-8">
   <title>Recipes</title>
 </head>
 
 <body>
   <header id="page-header">
-    <h1>Welcome to the Kitchen Cookbook</h1>
+    <h1 class="title">Welcome to the Kitchen Cookbook</h1>
     <div class="dropdown">
       <button class="drop-button">Select</button>
       <div class="dropdown-content">
@@ -19,34 +19,38 @@
         <a href="recipes/Carne-Asada-Marinade.html">Carne-Asada-Marinade</a>
         <br>
         <br>
-        <a href="/recipes/Paleo-Chocolate-Cake.html">Paleo-Chocolate-Cake</a>
+        <a href="recipes/Paleo-Chocolate-Cake.html">Paleo-Chocolate-Cake</a>
         <br>
         <br>
-        <a href="/recipes/Texas-Chili.html">Texas-Chili</a>
+        <a href="recipes/Texas-Chili.html">Texas-Chili</a>
       </div>
     </div>
 </header>
 
-  <main>
-    <h2>Recipes</h2>
-    <ul>
-      <li>
-        <a href="recipes/Carne-Asada-Marinade.html">Carne-Asada-Marinade</a>
-        <br>
-        <img src="images/Carne-Asada-Marinade.jpeg" alt="Carne-Asada-Marinade image" width="300" height="200">
-      </li>
-      <li>
-        <a href="recipes/Paleo-Chocolate-Cake.html">Paleo-Chocolate-Cake</a>
-        <br>
-        <img src="images/Paleo-Chocolate-Cake.jpeg" alt="Paleo-Chocolate-Cake image" width="300" height="200">
-      </li>
-      <li>
-        <a href="recipes/Texas-Chili.html">Texas-Chili</a>
-        <br>
-        <img src="images/Texas-Chili.jpeg" alt="Texas-Chili Image" width="300" height="200">
-      </li>
-    </ul>
-  </main>
+  <main class="index-main">
+
+    <img class="scooby" src="images/scooby-doo-sandwich.gif" alt="Scooby Doo eating a big sandwitch">  
+    <br>
+    <br>
+    <div class="Recipes">
+      <h2>Recipes</h2>
+        <div class="Carne">
+          <a href="recipes/Carne-Asada-Marinade.html">Carne-Asada-Marinade</a>
+          <br>
+          <img src="images/Carne-Asada-Marinade.jpeg" alt="Carne-Asada-Marinade image" width="300" height="200">
+        </div>
+        <div class="Paleo">
+          <a href="recipes/Paleo-Chocolate-Cake.html">Paleo-Chocolate-Cake</a>
+          <br>
+          <img src="images/Paleo-Chocolate-Cake.jpeg" alt="Paleo-Chocolate-Cake image" width="300" height="200">
+        </div>
+        <div class="Chili">
+          <a href="recipes/Texas-Chili.html">Texas-Chili</a>
+          <br>
+          <img src="images/Texas-Chili.jpeg" alt="Texas-Chili Image" width="300" height="200">
+        </div>
+    </div>
+    </main>
 
   <footer id="page-footer">
     <p> All Recipe sources from <a href="https://www.allrecipes.com/">allrecipes.com</a></p>

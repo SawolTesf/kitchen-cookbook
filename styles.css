@@ -1,16 +1,18 @@
+/*Everything below is for the dropdown menu*/
+
 /*Style of dropdown button*/
 .drop-button{
-  background-color: gray;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+  background-color: black;
+  color: white;
   padding: 16px;
   font-size: 16px;
-  border: none;
+  border: black;
 }
 
+/* Styles for the dropdown element */
 .dropdown{
-  position: relative;
-  display: inline-block;
+  position: relative; /* Positions the dropdown relative to its normal position */
+  display: inline-block; /* Displays the dropdown as an inline element */
 }
 
 /* Style and function of links withing dropdown menu*/
@@ -23,6 +25,7 @@
   z-index: 1;
 }
 
+/*Style for the links inside the dropdown menu*/
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -30,7 +33,7 @@
   display: block;
 }
 
-/* This will change the color of the links when hovering over it*/
+/* This will change the color of the links background when hovering over it*/
 .dropdown-content a:hover{
   background-color: #ddd;
 }
@@ -40,9 +43,42 @@
   display: block;
 }
 
+/* Will change the background of the button when hovering over it*/
 .dropdown:hover .drop-button{
   background-color: #FF0000;
 }
-.dropdown:hover .dropdown-content {
-  display: block;
+
+/*Everything above is for the dropdown menu*/
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F5F5DC; /* Set the background color for all elements to a light beige (#F5F5DC) */
+}
+
+.title{
+  /* Center align the text within elements with class "title" */
+  text-align: center;
+  /* Make the text bold for elements with class "title" */
+  font-weight: bold;
+}
+
+.index-main{
+  /* Center align the content within elements with class "index-main" */
+  text-align: center;
+  /* Align the items to the end within elements with class "index-main" */
+  align-items: end;
+}
+
+.scooby{
+  /* Make the corners of elements with class "scooby" rounder */
+  border-radius: 80px;
+}
+
+.Recipes {
+  /* Add a black border with a thickness of 2px to elements with class "Recipes" */
+  border: 2px solid black;
+  /* Make the corners of elements with class "Recipes" rounder */
+  border-radius: 100px;
+  /* Add 10px of padding to the content inside elements with class "Recipes" */
+  padding: 10px;
 }
