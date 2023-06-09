@@ -50,6 +50,7 @@
 
 /*Everything above is for the dropdown menu*/
 
+
 /*For all pages*/
 
 *{
@@ -73,6 +74,7 @@
 }
 
 /*Beginning of index.main styling*/
+
 .index-main{
   /* Center align the content within elements with class "index-main" */
   text-align: center;
@@ -93,6 +95,40 @@
   /* Add 10px of padding to the content inside elements with class "Recipes" */
   padding: 10px;
 }
+
+
+.Carne{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  text-align: left;
+  align-items: baseline;
+}
+.Paleo{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.Chili{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  text-align: right;
+  align-items: end;
+}
+.Carne img, .Paleo img, .Chili img{
+  border: 5px solid black;
+}
+
+.Carne a, .Paleo a, .Chili a{
+  margin-bottom: 10px;
+}
+.Recipe-list button{
+  background-color: rgb(235, 235, 17);
+}
+
 /*end of index.main styling*/
 
 /*Below is for the page footer*/
